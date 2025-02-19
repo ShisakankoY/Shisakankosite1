@@ -1,0 +1,148 @@
+/* <div>内の要素を横並びにする */
+.header-container {
+  display: flex; /* 子要素を横並びにする */
+  align-items: center; /* 縦方向の中央揃え */
+  justify-content: space-between; /* 左右に間隔をつけて配置 */
+  background-color: #f5f5f5;
+  padding: 10px 20px; /* 上下の余白を追加 */
+  position: relative; /* 親要素にrelativeを指定 */
+}
+
+header {
+  position: fixed;
+  top: 0;        /* 画面上部に固定 */
+  left: 0;       /* 画面左端に固定 */
+  width: 100%;   /* 幅を画面幅に合わせる */
+  background-color: #f5f5f5; /* 背景色を設定 */
+  z-index: 1000; /* 他の要素に隠れないように */
+}
+
+.uul {
+  list-style-type: none; /* リストマーカー（点）を消す */
+  padding: 0;
+  margin: 0;
+  display: flex; /* リスト項目を横並びにする */
+}
+
+.lli {
+  margin-right: 20px; /* リスト項目間の間隔を設定 */
+}
+
+a {
+  text-decoration: none; /* リンクの下線を消す */
+  color: black; /* リンクの文字色 */
+}
+
+a:hover {
+  color: #007BFF; /* リンクにカーソルを合わせたときの色 */
+}
+
+footer {
+  background-color: #c0c0c0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.inquiry {
+  background-color: #f0ffff;
+  padding-right: 20px;
+}
+
+.submit {
+  background-color: #1e90ff
+}
+
+.Train {
+  max-width: 100%;
+  height: auto;
+}
+
+.shisa {
+  line-height: 3;
+}
+
+h3 {
+  font-family: serif;
+  font-style: italic;
+}
+
+section {
+  padding-left: 20px;
+}
+
+.syuyakurin {
+  float: right;
+  padding-right: 20px;
+}
+
+#tsurumi {
+  float: right;
+  padding-right: 20px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.hover-effect {
+  transition: color 0.3s ease; /* 色の変化にアニメーションを追加 */
+  }
+
+.hover-effect:hover {
+  color: #007BFF; /* カーソルを合わせたときに水色に変わる */
+}
+
+input, textarea {
+  border: 1px solid #ccc;  /* 薄いグレーの枠線 */
+  padding: 8px;            /* 内側の余白 */
+  font-size: 14px;         /* フォントサイズ */
+  border-radius: 4px;      /* 角を丸くする */
+  width: 100%;             /* 横幅を親要素に合わせる */
+  box-sizing: border-box;  /* paddingとborderを含めて幅を計算 */
+}
+
+input:focus, textarea:focus {
+  border-color: #4d90fe;   /* フォーカス時に枠の色を青に変更 */
+  outline: none;           /* フォーカス時の外側の枠を消す */
+}
+
+.Utsunomiya-container {
+  display: flex;
+  align-items: center;
+}
+
+.button-link {
+  display: inline-block;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none; /* 下線を消す */
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.button-link:hover {
+  background-color: #45a049;
+}
+
+.LRT-container {
+  display: flex;
+  align-items: center;
+}
+
+.TOP {
+  display: flex;
+}
+
+.TOP-sentence {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin: 200px;
+}
