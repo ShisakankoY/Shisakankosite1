@@ -153,6 +153,22 @@ input:focus, textarea:focus {
   height: auto;
 }
 
+/* 画面幅が768px以下（スマホなど）の場合に適用 */
+@media (max-width: 768px) {
+  .TOP {
+    flex-direction: column;  /* 画像と文章を縦並びに変更 */
+    align-items: center;  /* 中央揃え */
+  }
+
+  .TOP-sentence, .NIKKO {
+    width: 100%;  /* スマホ画面では幅を100%にして縦並びに */
+  }
+
+  .TOP-sentence {
+    margin-bottom: 20px;  /* 文章と画像の間にスペースを追加 */
+  }
+}
+
 * {
   box-sizing: border-box;
 }
