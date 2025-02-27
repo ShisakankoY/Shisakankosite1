@@ -157,3 +157,12 @@ input:focus, textarea:focus {
   box-sizing: border-box;
 }
 
+video {
+  width: 20%;
+  max-width: 100%;
+}
+
+.omiya205 {
+  width: 20%;
+  max-width: 100%;
+}
