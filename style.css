@@ -156,13 +156,3 @@ input:focus, textarea:focus {
 * {
   box-sizing: border-box;
 }
-
-video {
-  width: 100%;
-  max-width: 100%;
-}
-
-.omiya205 {
-  width: 100%;
-  max-width: 100%;
-}
