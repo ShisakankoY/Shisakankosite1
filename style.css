@@ -165,10 +165,7 @@ input:focus, textarea:focus {
   }
 
   .NIKKO {
-    width: 100px;
-    width: 20%;
-    max-width: 100%; 
-    height: auto;
+    display: none;  /* スマホでは画像を非表示にする */
   }
 
   .TOP-sentence {
