@@ -141,15 +141,14 @@ input:focus, textarea:focus {
 }
 
 .TOP-sentence {
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  margin: 200px;
-  width: 50%;
+  margin: 20px;
+  width: 70%;
+  display: block; /* flexではなくblockに変更 */
+  text-align: center; /* 文章を中央揃えに */
 }
 
 .NIKKO {
-  width: 45%;
+  width: 20%;
   max-width: 100%; 
   height: auto;
 }
