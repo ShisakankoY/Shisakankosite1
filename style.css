@@ -160,8 +160,15 @@ input:focus, textarea:focus {
     align-items: center;  /* 中央揃え */
   }
 
-  .TOP-sentence, .NIKKO {
+  .TOP-sentence {
     width: 100%;  /* スマホ画面では幅を100%にして縦並びに */
+  }
+
+  .NIKKO {
+    width: 100px;
+    width: 20%;
+    max-width: 100%; 
+    height: auto;
   }
 
   .TOP-sentence {
