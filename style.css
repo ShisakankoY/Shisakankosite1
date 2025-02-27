@@ -162,17 +162,11 @@ input:focus, textarea:focus {
 
   .TOP-sentence {
     width: 100%;  /* スマホ画面では幅を100%にして縦並びに */
+    margin-bottom: 20px;  /* 文章と画像の間にスペースを追加 */
   }
 
   .NIKKO {
     display: none;  /* スマホでは画像を非表示にする */
-  }
-
-  .TOP-sentence {
-    margin-bottom: 20px;  /* 文章と画像の間にスペースを追加 */
-    width: 20%;
-    max-width: 100%; 
-    height: auto;
   }
 }
 
