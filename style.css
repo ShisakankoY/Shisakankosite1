@@ -75,11 +75,6 @@ section {
   padding-left: 20px;
 }
 
-.syuyakurin {
-  float: right;
-  padding-right: 20px;
-}
-
 #tsurumi {
   float: right;
   padding-right: 20px;
@@ -169,9 +164,13 @@ input:focus, textarea:focus {
     display: none;  /* スマホでは画像を非表示にする */
   }
 
-  .E257 {
+  .syuyakurin {
     display: none;
-  }
+}
+}
+.syuyakurin {
+  float: right;
+  padding-right: 20px;
 }
 
 * {
