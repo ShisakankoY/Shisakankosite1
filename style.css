@@ -164,10 +164,15 @@ input:focus, textarea:focus {
     display: none;  /* スマホでは画像を非表示にする */
   }
 
-  .syuyakurin {
+  .E257 {
     display: none;
+  }
+
+  .schooltrip {
+    display: none;
+  }
 }
-}
+
 .syuyakurin {
   float: right;
   padding-right: 20px;
