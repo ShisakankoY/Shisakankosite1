@@ -168,6 +168,10 @@ input:focus, textarea:focus {
   .NIKKO {
     display: none;  /* スマホでは画像を非表示にする */
   }
+
+  .E257 {
+    display: none;
+  }
 }
 
 * {
