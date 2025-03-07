@@ -7,10 +7,15 @@
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
     <link rel="stylesheet" href="style.css">
     <style>
-      @media (max-width: 767px) {
-        img {
-          width: 100%;
-        }
+       /* 画像が親要素の幅を超えないように */
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+
+      /* スマホで横スクロールが発生しないように */
+      body, html {
+        overflow-x: hidden;
       }
     </style>
   </head>
