@@ -108,6 +108,7 @@ input:focus, textarea:focus {
 .Utsunomiya-container {
   display: flex;
   align-items: center;
+  margin: 20px;
 }
 
 .button-link {
@@ -128,6 +129,7 @@ input:focus, textarea:focus {
 .LRT-container {
   display: flex;
   align-items: center;
+  margin: 20px;
 }
 
 .TOP {
