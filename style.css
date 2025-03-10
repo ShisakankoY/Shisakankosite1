@@ -176,15 +176,23 @@ input:focus, textarea:focus {
   .nnaavv {
     width: 100%;
   }
-
-  .ull {
-    font-size: 18px;
-  }
 }
 
 .syuyakurin {
   float: right;
   padding-right: 20px;
+}
+
+/* 通常のナビゲーションバーのスタイル */
+.navbar {
+  font-size: 18px;
+}
+
+/* スマホサイズでナビゲーションバーの文字サイズを小さくする */
+@media (max-width: 768px) {
+  .navbar {
+    font-size: 14px;
+  }
 }
 
 * {
