@@ -184,13 +184,13 @@ input:focus, textarea:focus {
 }
 
 /* 通常のナビゲーションバーのスタイル */
-.navbar {
+#navbar {
   font-size: 18px;
 }
 
 /* スマホサイズでナビゲーションバーの文字サイズを小さくする */
 @media (max-width: 768px) {
-  .navbar {
+  #navbar {
     font-size: 14px;
   }
 }
