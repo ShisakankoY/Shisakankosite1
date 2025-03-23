@@ -208,7 +208,7 @@ body {
 /* style.css */
 
 /* 画像がレスポンシブ対応になるように 2025.3.23*/
-.haga, railway {
+.haga {
   width: 100%;
   height: auto;
   max-width: 100%;
@@ -217,7 +217,7 @@ body {
 
 /* スマホやタブレットの画面サイズに合わせた画像調整 2025.3.23 */
 @media (max-width: 768px) {
-  .haga, railway{
+  .haga {
     width: 100%;
     height: auto;
   }
