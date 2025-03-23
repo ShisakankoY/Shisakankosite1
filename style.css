@@ -205,15 +205,10 @@ body {
   padding-top: 60px; /* ナビゲーションバーの高さをここに設定（例えば、60px） */
 }
 
-.railway {
-  width: 100%;
-  height: auto;  /* 縦横比を保ちながらリサイズ 2025.3.21*/
-}
-
 /* style.css */
 
 /* 画像がレスポンシブ対応になるように 2025.3.23*/
-.haga {
+.haga, railway {
   width: 100%;
   height: auto;
   max-width: 100%;
