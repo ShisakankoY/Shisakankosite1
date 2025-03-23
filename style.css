@@ -195,6 +195,40 @@ input:focus, textarea:focus {
   }
 }
 
+.dataCliches {
+  text-align: center; /*2025.3.21*/
+  margin: 20px;
+}
+
+/* ナビゲーションバーの高さに合わせて余白を追加  2025.3.21*/
+body {
+  padding-top: 60px; /* ナビゲーションバーの高さをここに設定（例えば、60px） */
+}
+
+.railway {
+  width: 100%;
+  height: auto;  /* 縦横比を保ちながらリサイズ 2025.3.21*/
+}
+
+/* style.css */
+
+/* 画像がレスポンシブ対応になるように 2025.3.23*/
+.haga {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  display: block;
+}
+
+/* スマホやタブレットの画面サイズに合わせた画像調整 2025.3.23 */
+@media (max-width: 768px) {
+  .haga {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
 * {
   box-sizing: border-box;
 }
