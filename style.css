@@ -217,7 +217,7 @@ body {
 
 /* スマホやタブレットの画面サイズに合わせた画像調整 2025.3.23 */
 @media (max-width: 768px) {
-  .haga {
+  .haga, railway{
     width: 100%;
     height: auto;
   }
