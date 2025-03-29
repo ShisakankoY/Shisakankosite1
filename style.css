@@ -228,8 +228,6 @@ body {
   overflow-y: auto; /* 縦方向のスクロールを有効にする */
 }
 
-
-
 * {
   box-sizing: border-box;
 }
