@@ -223,6 +223,12 @@ body {
   }
 }
 
+.topnews {
+  height: 120px; /* 高さを設定 */
+  overflow-y: auto; /* 縦方向のスクロールを有効にする */
+}
+
+
 
 * {
   box-sizing: border-box;
