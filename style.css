@@ -200,13 +200,6 @@ input:focus, textarea:focus {
   margin: 20px;
 }
 
-/* ナビゲーションバーの高さに合わせて余白を追加  2025.3.21*/
-body {
-  padding-top: 60px; /* ナビゲーションバーの高さをここに設定（例えば、60px） */
-}
-
-/* style.css */
-
 /* 画像がレスポンシブ対応になるように 2025.3.23*/
 .haga {
   width: 100%;
