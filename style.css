@@ -221,6 +221,10 @@ input:focus, textarea:focus {
   overflow-y: auto; /* 縦方向のスクロールを有効にする */
 }
 
+h2 {
+  margin-top: 0; /* 上の余白を削除 */
+}
+
 * {
   box-sizing: border-box;
 }
