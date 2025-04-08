@@ -225,6 +225,12 @@ h2 {
   margin-top: 0; /* 上の余白を削除 */
 }
 
+.hospital-container {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
 * {
   box-sizing: border-box;
 }
