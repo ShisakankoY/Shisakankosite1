@@ -214,6 +214,18 @@ input:focus, textarea:focus {
     width: 100%;
     height: auto;
   }
+
+  .Signaling {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.Signaling {
+  width: 50%;
+  height: auto;
+  max-width: 100%;
+  display: block;
 }
 
 .topnews {
