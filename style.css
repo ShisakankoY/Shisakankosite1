@@ -255,6 +255,16 @@ h2 {
   display: block;
 }
 
+.yoko {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+#start {
+  background-color: #00bfff
+}
+
 * {
   box-sizing: border-box;
 }
